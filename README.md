@@ -2,6 +2,8 @@
 
 MCP (Model Context Protocol) server for [ApogeoAPI](https://app.apogeoapi.com) — geographic data, live exchange rates, and IP geolocation for Claude Desktop, Cursor, and any MCP-compatible AI assistant.
 
+[![apogeoapi-mcp MCP server](https://glama.ai/mcp/servers/APOGEOAPI/apogeoapi-mcp/badges/card.svg)](https://glama.ai/mcp/servers/APOGEOAPI/apogeoapi-mcp)
+
 ## What it does
 
 This server exposes ApogeoAPI's REST endpoints as tools that AI assistants can call directly. Ask Claude "What is the current USD rate for Argentina?" or "Geolocate IP 8.8.8.8" and it will call the right tool automatically.
