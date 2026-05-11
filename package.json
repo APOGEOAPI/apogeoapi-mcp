@@ -1,7 +1,7 @@
 {
   "name": "@apogeoapi/mcp",
-  "version": "1.0.0",
-  "description": "MCP server for ApogeoAPI — geographic data, live exchange rates & IP geolocation",
+  "version": "1.0.2",
+  "description": "MCP server for ApogeoAPI \u2014 geographic data, live exchange rates & IP geolocation",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -28,12 +28,22 @@
     "@types/node": "^20.0.0",
     "tsx": "^4.0.0"
   },
-  "files": ["dist"],
-  "keywords": ["mcp", "geolocation", "geography", "currency", "ip-geo", "apogeoapi"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mcp",
+    "geolocation",
+    "geography",
+    "currency",
+    "ip-geo",
+    "apogeoapi"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/APOGEOAPI/apogeoapi-mcp.git"
   },
-  "homepage": "https://apogeoapi.com"
+  "homepage": "https://apogeoapi.com",
+  "mcpName": "apogeoapi.com/apogeoapi-mcp"
 }
