@@ -12,11 +12,27 @@
       "registryType": "npm",
       "identifier": "@apogeoapi/mcp",
       "version": "1.0.2",
-      "runtimeArguments": [],
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeArguments": [
+        {
+          "type": "named",
+          "name": "-y",
+          "description": "Auto-approve npx prompt",
+          "isRequired": true
+        },
+        {
+          "type": "positional",
+          "value": "@apogeoapi/mcp",
+          "description": "Package name",
+          "isRequired": true
+        }
+      ],
       "environmentVariables": [
         {
           "name": "APOGEOAPI_KEY",
-          "description": "API key from https://app.apogeoapi.com \u2014 free tier: 1,000 req/mo",
+          "description": "API key from https://app.apogeoapi.com \u2014 free: 1,000 req/mo",
           "required": true
         }
       ]
