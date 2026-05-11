@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "apogeoapi.com/apogeoapi-mcp",
+  "name": "com.apogeoapi/apogeoapi-mcp",
   "description": "Geographic data API: 250+ countries, 150K+ cities, IP geolocation, 161 live FX rates.",
   "repository": {
     "url": "https://github.com/APOGEOAPI/apogeoapi-mcp",
