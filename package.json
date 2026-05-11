@@ -45,5 +45,5 @@
     "url": "https://github.com/APOGEOAPI/apogeoapi-mcp.git"
   },
   "homepage": "https://apogeoapi.com",
-  "mcpName": "apogeoapi.com/apogeoapi-mcp"
+  "mcpName": "com.apogeoapi/apogeoapi-mcp"
 }
