@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "apogeoapi.com/apogeoapi-mcp",
+  "description": "Geographic data and live exchange rates: 250+ countries, 5K+ states, 150K+ cities, IP geolocation, and 161 currency rates in one MCP server.",
+  "repository": {
+    "url": "https://github.com/APOGEOAPI/apogeoapi-mcp",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "1.0.2"
+  },
+  "packages": [
+    {
+      "registry_type": "npm",
+      "name": "@apogeoapi/mcp",
+      "version": "1.0.2",
+      "package_arguments": [],
+      "environment_variables": [
+        {
+          "name": "APOGEOAPI_KEY",
+          "description": "Your ApogeoAPI key from https://app.apogeoapi.com \u2014 free tier: 1,000 req/mo",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
